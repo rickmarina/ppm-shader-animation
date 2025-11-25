@@ -20,7 +20,6 @@ public class Rain : ShaderBase
                 {
                     Vector2 FC = new(x, y);
                     Vector2 p = (FC * 2f - r) / r.Y;
-                    float rainAmount = 120.0f; // cuántas gotas
                     float dropWidth = 0.03f;
                     float dropLength = 0.19f;
                     float intensity = 0.0f;
